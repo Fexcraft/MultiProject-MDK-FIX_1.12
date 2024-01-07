@@ -30,6 +30,7 @@ Example:
   - Similarly for FVTM you also need `FVTM-Core` which is also located at [fexcraft-net](https://github.com/fexcraft-net/) rather than my Github Profile.
 - It is best if your mod is also a sub-project/module, just grab the normal Forge MDK, from my observation as long the main project has fancy gradle, the sub projects work too.
   (I used the IntelliJ grandle `runClient`)
+- Use `GitHub Desktop` or another git client to clone the repositories, this will make easier to fetch updated code if there is new commits.
   
 ### Discord
 If you need further help or spot anything not working, feel free to join the [Discord](https://discord.gg/AkMAzaA) server.
