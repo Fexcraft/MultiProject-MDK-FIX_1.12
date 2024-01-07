@@ -11,7 +11,7 @@ Example MultiProject Files
 ### If you want to work on Fexcraft Mods / Addons / Extensions
 If you want to make an addon/extension for a Fexcraft Mod, here's some important things to note / tips:
 - Most of my projects are setup in a way that they expect all to be located relative to each other.
-If you do the same, there is nothing more you have to do, they should work automatically!
+If you do the same, there is nothing more you have to do, they should work automatically!    
 (IDE should detect them).    
 Example:
 ```
