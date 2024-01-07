@@ -6,11 +6,12 @@ Example MultiProject Files
 2. Unpack it into where your Main/Placeholder MultiProject will be located.
 3. Paste the `build.gradle` and `settings.gradle` from this repository.
 4. Edit the lines after the commends with `//MARKER:` like in the example.
+5. Import to your IDE
 
 ### If you want to work on Fexcraft Mods / Addons / Extensions
 If you want to make an addon/extension for a Fexcraft Mod, here's some important things to note / tips:
 - Most of my projects are setup in a way that they expect all to be located relative to each other.
-If you do the same, there is nothing more you have to do, they should work automatically!    
+If you do the same, there is nothing more you have to do, they should work automatically! (IDE should detect them).    
 Example:
 ```
 ./Github/
