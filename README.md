@@ -13,7 +13,7 @@ If you want to make an addon/extension for a Fexcraft Mod, here's some important
 - Most of my projects are setup in a way that they expect all to be located relative to each other.
 If you do the same, there is nothing more you have to do, they should work automatically!    
 (IDE should detect them).    
-Example:
+Example Folder Structure:
 ```
 ./Github/
   FCL/
@@ -24,11 +24,9 @@ Example:
   FVTM-Core/
   OtherMod/
 ```
-- FCL and FVTM are split into 2-3 repositories, which does not work well with Eclipse, using IntelliJ is advised.
-  - This also means that if you clone FCL (which all of my mods use!) you also have to clone `FCLN` and `Json`
-    (please note they are under the [fexcraft-net](https://github.com/fexcraft-net/) organisation!)
-  - Similarly for FVTM you also need `FVTM-Core` which is also located at [fexcraft-net](https://github.com/fexcraft-net/) rather than my Github Profile.
-- It is best if your mod is also a sub-project/module, just grab the normal Forge MDK, from my observation as long the main project has fancy gradle, the sub projects work too.
+- FCL and FVTM may not work with Eclipse due to how those are setup with submodules/subdeps.
+- It is best if your mod is also a sub-project/module, just grab the normal Forge MDK,   
+  from my observation as long the main project has fancy gradle, the sub projects work too.    
   (I used the IntelliJ grandle `runClient`)
 - Use `GitHub Desktop` or another git client to clone the repositories, this will make easier to fetch updated code if there is new commits.
   
