@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        maven {
+            name 'MinecraftForge'
+            url 'https://maven.minecraftforge.net/'
+        }
+        maven {
+            name 'Garden of Fancy'
+            url 'https://maven.gofancy.wtf/releases'
+        }
+    }
+}
+
+//MARKER: Here define the sub-projects/modules.
+// In this example there is FCL and FSMM
+// (Please note FCL also needs FCLN and Fexcraft Json which the FCL build.gradle is pre-configured for!)
+include ':FCL'
+project(':FCL').projectDir = new File('/home/ferdinand/Documents/GitHub/FCL')
+include ':FSMM'
+project(':FSMM').projectDir = new File('/home/ferdinand/Documents/GitHub/FSMM')
