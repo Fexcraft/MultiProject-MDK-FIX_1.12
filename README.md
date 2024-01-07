@@ -21,7 +21,8 @@ Example:
   Json/
   FSMM/
   FVTM/
-  FVTM-Core
+  FVTM-Core/
+  OtherMod/
 ```
 - FCL and FVTM are split into 2-3 repositories, which does not work well with Eclipse, using IntelliJ is advised.
   - This also means that if you clone FCL (which all of my mods use!) you also have to clone `FCLN` and `Json`
