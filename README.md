@@ -6,7 +6,7 @@ Example MultiProject Files
 2. Unpack it into where your Main/Placeholder MultiProject will be located.
 3. Paste the `build.gradle` and `settings.gradle` from this repository.
 4. Edit the lines after the commends with `//MARKER:` like in the example.
-5. Import to your IDE
+5. Import to your IDE (+ genIntelliJRuns for IntelliJ)
 
 ### If you want to work on Fexcraft Mods / Addons / Extensions
 If you want to make an addon/extension for a Fexcraft Mod, here's some important things to note / tips:
@@ -29,6 +29,9 @@ Example Folder Structure:
   from my observation as long the main project has fancy gradle, the sub projects work too.    
   (I used the IntelliJ grandle `runClient`)
 - Use `GitHub Desktop` or another git client to clone the repositories, this will make easier to fetch updated code if there is new commits.
+
+### Other Resources
+- The fixes applied in the gradle files here are partway based on -> https://fureniku.com/minecraft-mods/forge-1-12-2023/
   
 ### Discord
 If you need further help or spot anything not working, feel free to join the [Discord](https://discord.gg/AkMAzaA) server.
