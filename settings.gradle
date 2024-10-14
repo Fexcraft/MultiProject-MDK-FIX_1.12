@@ -13,8 +13,9 @@ pluginManagement {
 
 //MARKER: Here define the sub-projects/modules.
 // In this example there is FCL and FSMM
-// (Please note FCL also uses FCLN and Fexcraft Json which the FCL repository is pre-configured for!)
+// (Please note FCL also uses Fexcraft Json which the FCL repository is pre-configured for!)
+def homepath = System.properties['user.home']
 include ':FCL'
-project(':FCL').projectDir = new File('/home/ferdinand/Documents/GitHub/FCL')
+project(':FCL').projectDir = new File(homepath + '/Documents/GitHub/FCL/forge12')
 include ':FSMM'
-project(':FSMM').projectDir = new File('/home/ferdinand/Documents/GitHub/FSMM')
+project(':FSMM').projectDir = new File(homepath + '/Documents/GitHub/FSMM')
