@@ -17,11 +17,9 @@ Example Folder Structure:
 ```
 ./Github/
   FCL/
-  FCLN/
   Json/
   FSMM/
   FVTM/
-  FVTM-Core/
   OtherMod/
 ```
 - FCL and FVTM may not work with Eclipse due to how those are setup with submodules/subdeps.
